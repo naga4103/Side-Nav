@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Route, Routes } from "react-router-dom";
+
+import MySideNav from './components/MySideNav';
+import Home from './components/Home';
+import Messages from './components/Messages';
+import Charts from './components/Charts';
+import NavbarC from './components/NavbarC/NavbarC';
+
+import Ham from './components/Ham/Ham';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  //  <NavbarC/>
+
+  // <MySideNav/>
+
+  <Ham/>
+    
+       
+    
+     
+    
+    
+     
+
+  
+     
+    
   );
 }
 

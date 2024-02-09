@@ -1,0 +1,26 @@
+.hamburger-icon-button {
+    background-color: transparent;
+    width: 42px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.modal-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 458px;
+}
+.close-button {
+    align-self: flex-start;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-top: 32px;
+    outline: none;
+    cursor: pointer;
+}
